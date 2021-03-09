@@ -38,7 +38,7 @@ frame_support::construct_runtime!(
 		UncheckedExtrinsic = UncheckedExtrinsic,
 	{
 		System: frame_system::{Module, Call, Config, Storage, Event<T>},
-		Balances: pallet_balances::{Module, Call, Storage, Config<T>, Event<T>},
+		Balances: pallet_balances::{Module, Call, Storage, Event<T>},
 		AccountLinker: account_linker::{Module, Call, Storage, Event<T>},
 		OffchainWorker: offchain_worker::{Module, Call, Storage, Event<T>,},
 	}
